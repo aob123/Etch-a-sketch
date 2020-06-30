@@ -1,0 +1,39 @@
+Etch-a-sketch
+-------------
+Pseudo;
+
+Overview - 
+
+Create a main container.
+
+Inside main container a 16 x 16 grid is created on loading website (using javascript)
+
+If mouse hovers over a square in the grid, it should change colour of the square, leaving a trail of coloured pixels.
+
+Add a button for reset, which gives user the option to choose custom size grid (e.g. 32 x 32).
+
+-------------
+
+1. HTML & CSS
+
+Main container / Grid or flex (this can also be designed to show a classic etch-a-sketch.
+
+Settings bar / Below main container, which includes for example a dropdown menu which allows user to select grid size as well as a reset button.
+
+2. Javascript
+
+On DOM load, a 16 x 16 grid loads. These should all be independent divs. 
+
+If mouse hovers over a square, then change colour.
+
+IF reset is clicked, all divs should revert to standard.
+
+If a size is set in grid selection box, the grid should be created.
+
+---------------
+
+TO create DIVs;
+
+Loop, create element with class "pixel", create 16 x 16 of these.
+
+
